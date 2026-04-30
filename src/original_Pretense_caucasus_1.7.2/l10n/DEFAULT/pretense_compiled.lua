@@ -5290,6 +5290,10 @@ do
 	end
 	
 	function ZoneCommand:queueBuild(product, side, isRepair, progress)
+		if not product then
+			env.info("ZoneCommand:queueBuild - product is nil, skipping build")
+			return
+		end
 		if product.type ~= ZoneCommand.productTypes.mission or 
 			(product.missionType == ZoneCommand.missionTypes.supply_air or
 			product.missionType == ZoneCommand.missionTypes.supply_convoy or
@@ -5464,6 +5468,11 @@ do
 
 	function ZoneCommand:reActivateMission(savedData)
 		local product = self:getProductByName(savedData.productName)
+
+		if not product then
+			env.info("ZoneCommand:reActivateMission - product "..(savedData.productName or "nil").." not found, skipping")
+			return
+		end
 
 		if product.missionType == ZoneCommand.missionTypes.supply_convoy then
 			self:reActivateSupplyConvoyMission(product, savedData)
