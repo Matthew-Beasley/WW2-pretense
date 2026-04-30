@@ -12,15 +12,15 @@ end
 do
 	TemplateDB.templates["infantry-red"] = {
 		units = {
-			"BTR_D",
-			"T-90",
-			"T-90",
+			"Pz_IV",
+			"Tiger_I",
+			"Tiger_I",
 			"Infantry AK ver2",
 			"Infantry AK",
 			"Infantry AK",
 			"Paratrooper RPG-16",
 			"Infantry AK ver3",
-			"SA-18 Igla manpad"
+			"Infantry AK"
 		},
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
@@ -28,14 +28,14 @@ do
 
 	TemplateDB.templates["infantry-blue"] = {
 		units = { 
-			"M1045 HMMWV TOW",
-			"Soldier stinger",
+			"M4_Sherman",
 			"Soldier M4 GRG",
 			"Soldier M4 GRG",
 			"Soldier M4 GRG",
 			"Soldier M4 GRG",
 			"Soldier M4 GRG",
-			"M1043 HMMWV Armament"
+			"Soldier M4 GRG",
+			"M8_Greyhound"
 		},
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
@@ -47,7 +47,7 @@ do
 			"Infantry AK",
 			"Infantry AK ver3",
 			"Paratrooper RPG-16",
-			"SA-18 Igla manpad"
+			"Infantry AK"
 		},
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
@@ -59,201 +59,193 @@ do
 			"Soldier M4 GRG",
 			"Soldier M4 GRG",
 			"Soldier RPG",
-			"Soldier stinger",
+			"Soldier M4 GRG",
 		},
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- shorad-red: gun-only AAA (Shilka x3) — replaces Strela-10/Tunguska missile systems
 	TemplateDB.templates["shorad-red"] = {
 		units = {
-			"Strela-10M3",
-			"Strela-10M3",
-			"Ural-4320T",
-			"2S6 Tunguska"
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Opel_Blitz_36-6700A"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- shorad-blue: gun-only AAA (Gepard + C-RAM) — replaces Roland/Chaparral missile systems
 	TemplateDB.templates["shorad-blue"] = {
 		units = {
-			"Roland ADS",
-			"M48 Chaparral",
-			"M 818",
-			"Gepard",
-			"HEMTT_C-RAM_Phalanx"
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"Bedford_MWD"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- sam-red: heavy gun AAA (Shilka x5) — replaces SA-2/SA-3/Tor missile battery
 	TemplateDB.templates["sam-red"] = {
 		units = {
-			"p-19 s-125 sr",
-			"Ural-4320T",
-			"Ural-4320T",
-			"S_75M_Volhov",
-			"S_75M_Volhov",
-			"S_75M_Volhov",
-			"S_75M_Volhov",
-			"S_75M_Volhov",
-			"Tor 9A331",
-			"SNR_75V"
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Opel_Blitz_36-6700A",
+			"Opel_Blitz_36-6700A"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- sam-blue: heavy gun AAA (Gepard + C-RAM) — replaces Hawk missile battery
 	TemplateDB.templates["sam-blue"] = {
 		units = {
-			"Hawk pcp",
-			"Hawk cwar",
-			"Hawk ln",
-			"Hawk ln",
-			"Hawk ln",
-			"Hawk ln",
-			"Hawk ln",
-			"Hawk tr",
-			"M 818",
-			"Hawk sr"
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"Bedford_MWD"
 		},
 		maxDist = 300,
 		skill = "Good",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- patriot: heavy gun AAA (Gepard + C-RAM) — replaces Patriot missile battery
 	TemplateDB.templates["patriot"] = {
 		units = {
-			"Patriot cp",
-			"Patriot str",
-			"M 818",
-			"M 818",
-			"Patriot ln",
-			"Patriot ln",
-			"Patriot ln",
-			"Patriot ln",
-			"Patriot str",
-			"Patriot str",
-			"Patriot str",
-			"Patriot EPP",
-			"Patriot ECS",
-			"Patriot AMG"
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"Bedford_MWD",
+			"Bedford_MWD"
 		},
 		maxDist = 300,
 		skill = "Good",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- sa3: gun AAA (Shilka + Gepard) — replaces SA-3 missile battery
 	TemplateDB.templates["sa3"] = {
 		units = {
-			"p-19 s-125 sr",
-			"snr s-125 tr",
-			"5p73 s-125 ln",
-			"5p73 s-125 ln",
-			"Ural-4320T",
-			"5p73 s-125 ln",
-			"5p73 s-125 ln"
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Opel_Blitz_36-6700A"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- sa6: gun AAA (Shilka + Gepard) — replaces SA-6 Kub missile battery
 	TemplateDB.templates["sa6"] = {
 		units = {
-			"Kub 1S91 str",
-			"Kub 2P25 ln",
-			"Kub 2P25 ln",
-			"Kub 2P25 ln",
-			"Kub 2P25 ln",
-			"ZSU-23-4 Shilka",
-			"Ural-4320T",
-			"ZSU-23-4 Shilka",
-			"Kub 2P25 ln"
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Opel_Blitz_36-6700A"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- sa10: large gun AAA battery (Shilka x6 + Gepard x3) — replaces S-300 missile battery
 	TemplateDB.templates["sa10"] = {
 		units = {
-			"S-300PS 54K6 cp",
-			"S-300PS 5P85C ln",
-			"S-300PS 5P85C ln",
-			"S-300PS 5P85C ln",
-			"GAZ-66",
-			"GAZ-66",
-			"GAZ-66",
-			"S-300PS 5P85C ln",
-			"S-300PS 5P85C ln",
-			"S-300PS 5P85C ln",
-			"S-300PS 40B6MD sr",
-			"S-300PS 40B6M tr",
-			"S-300PS 64H6E sr"
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Opel_Blitz_36-6700A",
+			"Opel_Blitz_36-6700A"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- sa5: large gun AAA battery (Shilka x6 + Gepard x2) — replaces S-200 missile battery
 	TemplateDB.templates["sa5"] = {
 		units = {
-			"RLS_19J6",
-			"Ural-4320T",
-			"Ural-4320T",
-			"RPC_5N62V",
-			"S-200_Launcher",
-			"S-200_Launcher",
-			"S-200_Launcher",
-			"S-200_Launcher",
-			"S-200_Launcher",
-			"S-200_Launcher"
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Opel_Blitz_36-6700A",
+			"Opel_Blitz_36-6700A"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- sa11: large gun AAA battery (Shilka x5 + Gepard x3) — replaces SA-11 Buk missile battery
 	TemplateDB.templates["sa11"] = {
 		units = {
-			"SA-11 Buk SR 9S18M1",
-			"SA-11 Buk LN 9A310M1",
-			"SA-11 Buk LN 9A310M1",
-			"SA-11 Buk LN 9A310M1",
-			"SA-11 Buk LN 9A310M1",
-			"SA-11 Buk LN 9A310M1",
-			"ZSU-23-4 Shilka",
-			"SA-11 Buk SR 9S18M1",
-			"GAZ-66",
-			"GAZ-66",
-			"SA-11 Buk CC 9S470M1"
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Flak_38",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Opel_Blitz_36-6700A",
+			"Opel_Blitz_36-6700A"
 		},
 		maxDist = 300,
 		skill = "Excellent",
 		dataCategory= TemplateDB.type.group
 	}
 
+	-- nasams: large blue gun AAA battery (Gepard x4 + C-RAM x4) — replaces NASAMS missile battery
 	TemplateDB.templates["nasams"] = {
 		units = {
-			"NASAMS_Command_Post",
-			"NASAMS_Radar_MPQ64F1",
-			"HEMTT_C-RAM_Phalanx",
-			"M 818",
-			"M 818",
-			"Roland ADS",
-			"Roland ADS",
-			"NASAMS_LN_C",
-			"NASAMS_LN_C",
-			"NASAMS_LN_C",
-			"NASAMS_LN_C",
-			"NASAMS_Radar_MPQ64F1",
-			"NASAMS_Radar_MPQ64F1",
-			"NASAMS_Radar_MPQ64F1"
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"Bofors_40mm",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"M45_Quadmount",
+			"Bedford_MWD",
+			"Bedford_MWD"
 		},
 		maxDist = 300,
 		skill = "Excellent",
@@ -560,12 +552,6 @@ presets = {
 				type='mission',
 				missionType = ZoneCommand.missionTypes.strike
 			}),
-			sead = Preset:new({
-				display = 'SEAD',
-				cost = 200,
-				type='mission',
-				missionType = ZoneCommand.missionTypes.sead
-			}),
 			helo = Preset:new({
 				display = 'CAS',
 				cost = 100,
@@ -581,22 +567,6 @@ presets = {
 				missionType = ZoneCommand.missionTypes.patrol
 			})
 		},
-		support ={
-			awacs = Preset:new({
-				display= "AWACS",
-				cost = 300,
-				type='mission',
-				bias='5',
-				missionType = ZoneCommand.missionTypes.awacs
-			}),
-			tanker = Preset:new({
-				display= "Tanker",
-				cost = 200,
-				type='mission',
-				bias='2',
-				missionType = ZoneCommand.missionTypes.tanker
-			})
-		}
 	},
 	special = {
 		red = {
@@ -783,7 +753,6 @@ zones.senaki:defineUpgrades({
             name='senaki-comcenter-red',
             products = {
                 presets.defenses.red.sa3:extend({ name='senaki-airdef-red'}),
-                presets.missions.attack.sead:extend({name='senaki-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='senaki-cas-red', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='senaki-cas-red', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='senaki-strike-red', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
@@ -813,7 +782,6 @@ zones.senaki:defineUpgrades({
             name='senaki-comcenter-blue',
             products = {
                 presets.defenses.blue.shorad:extend({ name='senaki-airdef-blue'}),
-                presets.missions.attack.sead:extend({name='senaki-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='senaki-cas-blue', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='senaki-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='senaki-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.TWO}),
@@ -1224,7 +1192,6 @@ zones.sochi:defineUpgrades({
             name='sochi-comcenter-red',
             products = {
                 presets.defenses.red.sa10:extend({ name='sochi-airdef-red'}),
-                presets.missions.attack.sead:extend({name='sochi-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.strike:extend({name='sochi-strike-red', altitude=30000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='sochi-patrol-red', altitude=25000, range=25}),
                 presets.missions.patrol.aircraft:extend({name='sochi-patrol-red-1', altitude=25000, range=25}),
@@ -1255,7 +1222,6 @@ zones.sochi:defineUpgrades({
             name='sochi-comcenter-blue',
             products = {
                 presets.defenses.blue.patriot:extend({ name='sochi-airdef-blue'}),
-                presets.missions.attack.sead:extend({name='sochi-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.strike:extend({name='sochi-strike-blue', altitude=30000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='sochi-patrol-blue', altitude=25000, range=25}),
                 presets.missions.attack.cas:extend({name='sochi-cas-blue', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
@@ -1388,7 +1354,6 @@ zones.beslan:defineUpgrades({
             name='beslan-comcenter-red',
             products = {
                 presets.defenses.red.sa5:extend({ name='beslan-airdef-red'}),
-                presets.missions.attack.sead:extend({name='beslan-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.strike:extend({name='beslan-strike-red', altitude=30000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.strike:extend({name='beslan-strike-red-1', altitude=30000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='beslan-patrol-red', altitude=25000, range=25})
@@ -1417,7 +1382,6 @@ zones.beslan:defineUpgrades({
             name='beslan-comcenter-blue',
             products = {
                 presets.defenses.blue.patriot:extend({ name='beslan-airdef-blue'}),
-                presets.missions.attack.sead:extend({name='beslan-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.strike:extend({name='beslan-strike-blue', altitude=30000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.strike:extend({name='beslan-strike-blue-1', altitude=30000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='beslan-patrol-blue', altitude=25000, range=25})
@@ -1513,7 +1477,6 @@ zones.kutaisi:defineUpgrades({
             name='kutaisi-comcenter-red',
             products = {
                 presets.defenses.red.shorad:extend({ name='kutaisi-airdef-red'}),
-                presets.missions.attack.sead:extend({name='kutaisi-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='kutaisi-cas-red', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='kutaisi-cas-red', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='kutaisi-strike-red', altitude=20000, expend=AI.Task.WeaponExpend.HALF}),
@@ -1543,7 +1506,6 @@ zones.kutaisi:defineUpgrades({
             name='kutaisi-comcenter-blue',
             products = {
                 presets.defenses.blue.shorad:extend({ name='kutaisi-airdef-blue'}),
-                presets.missions.attack.sead:extend({name='kutaisi-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='kutaisi-cas-blue', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='kutaisi-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='kutaisi-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.TWO}),
@@ -1585,8 +1547,6 @@ zones.gudauta:defineUpgrades({
             name='gudauta-comcenter-red',
             products = {
                 presets.defenses.red.sam:extend({ name='gudauta-airdef-red'}),
-                presets.missions.attack.sead:extend({name='gudauta-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
-                presets.missions.attack.sead:extend({name='gudauta-sead-red-1', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='gudauta-cas-red', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='gudauta-cas-red', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.patrol.aircraft:extend({name='gudauta-patrol-red', altitude=25000, range=25})
@@ -1614,8 +1574,6 @@ zones.gudauta:defineUpgrades({
             name='gudauta-comcenter-blue',
             products = {
                 presets.defenses.blue.sam:extend({ name='gudauta-airdef-blue'}),
-                presets.missions.attack.sead:extend({name='gudauta-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
-                presets.missions.attack.sead:extend({name='gudauta-sead-blue-1', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='gudauta-cas-blue', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='gudauta-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.patrol.aircraft:extend({name='gudauta-patrol-blue', altitude=25000, range=25})
@@ -2086,7 +2044,6 @@ zones.sukhumi:defineUpgrades({
             name='sukhumi-comcenter-red',
             products = {
                 presets.defenses.red.sa11:extend({ name='sukhumi-airdef-red'}),
-                presets.missions.attack.sead:extend({name='sukhumi-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='sukhumi-cas-red', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='sukhumi-cas-red', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='sukhumi-strike-red', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
@@ -2116,7 +2073,6 @@ zones.sukhumi:defineUpgrades({
             name='sukhumi-comcenter-blue',
             products = {
                 presets.defenses.blue.nasams:extend({ name='sukhumi-airdef-blue'}),
-                presets.missions.attack.sead:extend({name='sukhumi-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='sukhumi-cas-blue', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='sukhumi-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='sukhumi-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
@@ -3322,14 +3278,11 @@ zones.nalchik:defineUpgrades({
             name='nalchik-comcenter-red',
             products = {
                 presets.defenses.red.sa3:extend({ name='nalchik-airdef-red'}),
-                presets.missions.attack.sead:extend({name='nalchik-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='nalchik-cas-red', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='nalchik-cas-red', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='nalchik-strike-red', altitude=30000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='nalchik-patrol-red', altitude=25000, range=25}),
                 presets.missions.patrol.aircraft:extend({name='nalchik-patrol-red-2', altitude=25000, range=25}),
-                presets.missions.support.awacs:extend({name='nalchik-awacs-red', altitude=30000, freq=251.2}),
-                presets.missions.support.tanker:extend({name='nalchik-tanker-red', altitude=30000, freq=252.2, tacan='40', variant='Drogue'})
             }
         })
     },
@@ -3354,7 +3307,6 @@ zones.nalchik:defineUpgrades({
             name='nalchik-comcenter-blue',
             products = {
                 presets.defenses.blue.nasams:extend({ name='nalchik-airdef-blue'}),
-                presets.missions.support.awacs:extend({name='nalchik-awacs-blue', altitude=30000, freq=259.5}),
             }
         })
     }
@@ -3620,7 +3572,6 @@ zones.kobuleti:defineUpgrades({
             name='kobuleti-comcenter-red',
             products = {
                 presets.defenses.red.shorad:extend({ name='kobuleti-airdef-red'}),
-                presets.missions.attack.sead:extend({name='kobuleti-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='kobuleti-cas-red', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='kobuleti-cas-red', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='kobuleti-strike-red', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
@@ -3650,13 +3601,10 @@ zones.kobuleti:defineUpgrades({
             name='kobuleti-comcenter-blue',
             products = {
                 presets.defenses.blue.shorad:extend({ name='kobuleti-airdef-blue'}),
-                presets.missions.attack.sead:extend({name='kobuleti-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='kobuleti-cas-blue', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='kobuleti-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='kobuleti-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.TWO}),
                 presets.missions.patrol.aircraft:extend({name='kobuleti-patrol-blue', altitude=25000, range=25}),
-                presets.missions.support.awacs:extend({name='kobuleti-awacs-blue', altitude=30000, freq=258.5}),
-                presets.missions.support.tanker:extend({name='kobuleti-tanker-blue', altitude=23000, freq=258, tacan='38', variant='Boom'})
             }
         })
     }
@@ -3877,13 +3825,10 @@ zones.batumi:defineUpgrades({
             name = 'batumi-mission-command-blue',
             products = {
                 presets.defenses.blue.shorad:extend({ name='batumi-sam-blue' }),
-                presets.missions.attack.sead:extend({name='batumi-sead-blue-1', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.attack.cas:extend({name='batumi-cas-blue-1', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.bai:extend({name='batumi-cas-blue-1', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='batumi-strike-blue-1', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='batumi-patrol-blue-1', altitude=25000, range=25}),
-                presets.missions.support.awacs:extend({name='batumi-awacs-blue', altitude=30000, freq=257.5}),
-                presets.missions.support.tanker:extend({name='batumi-tanker-blue', altitude=25000, freq=257, tacan='37', variant="Drogue"})
             }
         })
     }
@@ -4485,8 +4430,6 @@ tarawa:addSupportFlight("Nova Flight", 3000, CarrierCommand.supportTypes.transpo
 stennis:addSupportFlight("Warden Flight", 1000, CarrierCommand.supportTypes.cap, {altitude = 20000, range=25})
 stennis:addSupportFlight("Outlaw Flight", 1000, CarrierCommand.supportTypes.cap, {altitude = 15000, range=25})
 stennis:addSupportFlight("Tempest Flight", 2000, CarrierCommand.supportTypes.strike, {altitude = 15000})
-stennis:addSupportFlight("Focus Flight", 5000, CarrierCommand.supportTypes.awacs, {altitude = 30000, freq=261})
-stennis:addSupportFlight("Bloodhound Flight", 3000, CarrierCommand.supportTypes.tanker, {altitude = 19000, freq=261.5, tacan=45})
 stennis:addExtraSupport("BGM-109B", 10000, CarrierCommand.supportTypes.mslstrike, {salvo = 10, wpType = 'weapons.missiles.BGM_109B'})
 
 -- PlayerLogistics:registerSquadGroup(squadType,              groupname,      weight,cost,jobtime,extracttime, squadSize)

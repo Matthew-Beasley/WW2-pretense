@@ -612,6 +612,7 @@ do
 	PlayerLogistics.allowedTypes['SA342M'] = { supplies = false, personCapacity = 2}
 	PlayerLogistics.allowedTypes['SA342Minigun'] = { supplies = false, personCapacity = 2}
 	PlayerLogistics.allowedTypes['AH-64D_BLK_II'] = { supplies = false }
+	PlayerLogistics.allowedTypes['CH-47Fbl1'] = { supplies = true, personCapacity = 55 }
 
 	PlayerLogistics.infantryTypes = {
 		capture = 'capture',
@@ -6086,11 +6087,7 @@ do
 	end
 	
 	function ZoneCommand:isAwacsMissionValid(product, target)
-		if target.side ~= product.side then return false end
-		if target.name == self.name then return false end
-		if not target.distToFront or target.distToFront ~= 4 then return false end
-		
-		return true
+		return false -- disabled: no AWACS in WW2 conversion
 	end
 
 	function ZoneCommand:activateAwacsMission(product)
@@ -6135,11 +6132,7 @@ do
 	end
 
 	function ZoneCommand:isTankerMissionValid(product, target)
-		if target.side ~= product.side then return false end
-		if target.name == self.name then return false end
-		if not target.distToFront or target.distToFront ~= 4 then return false end
-		
-		return true
+		return false -- disabled: no tankers in WW2 conversion
 	end
 
 	function ZoneCommand:activateTankerMission(product)
@@ -6239,12 +6232,7 @@ do
 	end
 
 	function ZoneCommand:isSeadMissionValid(product, target)
-		if target.side == 0 then return false end
-		if not target.distToFront or target.distToFront > 1 then return false end
-		
-		--if MissionTargetRegistry.isZoneTargeted(target.name) then return false end
-
-		return target:hasEnemySAMRadar(product)
+		return false -- disabled: no missile SAMs to suppress in WW2 conversion
 	end
 
 	function ZoneCommand:hasEnemySAMRadar(product)
@@ -8130,7 +8118,8 @@ do
         ['SA342M'] =        { recon_speed = 10, minDist = 15, maxDeviation = 120 },
         ['SA342Minigun'] =  { recon_speed = 2,  minDist = 5,  maxDeviation = 45  },
         ['UH-1H'] =         { recon_speed = 1,  minDist = 5,  maxDeviation = 30  },
-        ['UH-60L'] =        { recon_speed = 1,  minDist = 5,  maxDeviation = 30  }
+        ['UH-60L'] =        { recon_speed = 1,  minDist = 5,  maxDeviation = 30  },
+        ['CH-47Fbl1'] =     { recon_speed = 1,  minDist = 5,  maxDeviation = 120 }
     }
 end
 
