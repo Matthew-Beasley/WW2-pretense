@@ -8981,8 +8981,8 @@ do
         units = {
             "Soldier M4 GRG",
             "Soldier M249",
-            "Soldier stinger",
-            "Soldier stinger",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG",
             "Soldier M4 GRG"
         },
         skill = "Good",

@@ -52,6 +52,7 @@ TYPE_MAP = {
     'Su-24M':         'Ju-88A4',
     'Su-30':          'Bf-109K-4',
     'Su-34':          'Ju-88A4',
+    'MiG-27K':        'Ju-88A4',
     'Tu-22M3':        'Ju-88A4',
     'Tornado IDS':    'Ju-88A4',
     'C-101CC':        'TF-51D',
