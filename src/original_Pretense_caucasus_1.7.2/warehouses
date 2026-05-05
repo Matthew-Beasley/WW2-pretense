@@ -676,7 +676,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -687,7 +687,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -1073,7 +1073,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1084,7 +1084,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -1109,7 +1109,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1120,7 +1120,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -1229,7 +1229,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1240,7 +1240,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -1457,7 +1457,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1468,7 +1468,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -2689,7 +2689,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2700,7 +2700,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -3086,7 +3086,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3097,7 +3097,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -3122,7 +3122,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3133,7 +3133,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -3242,7 +3242,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3253,7 +3253,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -3470,7 +3470,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3481,7 +3481,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -4702,7 +4702,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4713,7 +4713,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -5099,7 +5099,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -5110,7 +5110,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -5135,7 +5135,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -5146,7 +5146,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -5255,7 +5255,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -5266,7 +5266,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -5483,7 +5483,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -5494,7 +5494,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -6715,7 +6715,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -6726,7 +6726,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -7112,7 +7112,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -7123,7 +7123,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -7148,7 +7148,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -7159,7 +7159,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -7268,7 +7268,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -7279,7 +7279,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -7496,7 +7496,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -7507,7 +7507,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -8728,7 +8728,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -8739,7 +8739,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -9125,7 +9125,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -9136,7 +9136,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -9161,7 +9161,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -9172,7 +9172,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -9281,7 +9281,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -9292,7 +9292,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -9509,7 +9509,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -9520,7 +9520,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -10741,7 +10741,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -10752,7 +10752,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -11138,7 +11138,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -11149,7 +11149,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -11174,7 +11174,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -11185,7 +11185,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -11294,7 +11294,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -11305,7 +11305,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -11522,7 +11522,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -11533,7 +11533,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -12754,7 +12754,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -12765,7 +12765,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -13151,7 +13151,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -13162,7 +13162,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -13187,7 +13187,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -13198,7 +13198,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -13307,7 +13307,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -13318,7 +13318,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -13535,7 +13535,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -13546,7 +13546,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -14767,7 +14767,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -14778,7 +14778,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -15164,7 +15164,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -15175,7 +15175,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -15200,7 +15200,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -15211,7 +15211,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -15320,7 +15320,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -15331,7 +15331,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -15548,7 +15548,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -15559,7 +15559,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -16780,7 +16780,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -16791,7 +16791,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -17177,7 +17177,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -17188,7 +17188,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -17213,7 +17213,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -17224,7 +17224,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -17333,7 +17333,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -17344,7 +17344,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -17561,7 +17561,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -17572,7 +17572,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -18793,7 +18793,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -18804,7 +18804,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -19190,7 +19190,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -19201,7 +19201,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -19226,7 +19226,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -19237,7 +19237,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -19346,7 +19346,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -19357,7 +19357,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -19574,7 +19574,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -19585,7 +19585,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -20806,7 +20806,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -20817,7 +20817,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -21203,7 +21203,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -21214,7 +21214,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -21239,7 +21239,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -21250,7 +21250,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -21359,7 +21359,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -21370,7 +21370,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -21587,7 +21587,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -21598,7 +21598,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -22819,7 +22819,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -22830,7 +22830,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -23216,7 +23216,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -23227,7 +23227,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -23252,7 +23252,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -23263,7 +23263,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -23372,7 +23372,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -23383,7 +23383,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -23600,7 +23600,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -23611,7 +23611,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -24832,7 +24832,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -24843,7 +24843,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -25229,7 +25229,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -25240,7 +25240,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -25265,7 +25265,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -25276,7 +25276,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -25385,7 +25385,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -25396,7 +25396,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -25613,7 +25613,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -25624,7 +25624,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -26845,7 +26845,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -26856,7 +26856,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -27242,7 +27242,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -27253,7 +27253,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -27278,7 +27278,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -27289,7 +27289,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -27398,7 +27398,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -27409,7 +27409,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -27626,7 +27626,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -27637,7 +27637,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -28858,7 +28858,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -28869,7 +28869,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -29255,7 +29255,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -29266,7 +29266,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -29291,7 +29291,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -29302,7 +29302,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -29411,7 +29411,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -29422,7 +29422,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -29639,7 +29639,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -29650,7 +29650,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -30871,7 +30871,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -30882,7 +30882,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -31268,7 +31268,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -31279,7 +31279,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -31304,7 +31304,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -31315,7 +31315,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -31424,7 +31424,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -31435,7 +31435,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -31652,7 +31652,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -31663,7 +31663,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -32884,7 +32884,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -32895,7 +32895,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -33281,7 +33281,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -33292,7 +33292,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -33317,7 +33317,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -33328,7 +33328,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -33437,7 +33437,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -33448,7 +33448,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -33665,7 +33665,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -33676,7 +33676,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -34897,7 +34897,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -34908,7 +34908,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -35294,7 +35294,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -35305,7 +35305,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -35330,7 +35330,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -35341,7 +35341,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -35450,7 +35450,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -35461,7 +35461,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -35678,7 +35678,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -35689,7 +35689,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -36910,7 +36910,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -36921,7 +36921,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -37307,7 +37307,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -37318,7 +37318,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -37343,7 +37343,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -37354,7 +37354,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -37463,7 +37463,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -37474,7 +37474,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -37691,7 +37691,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -37702,7 +37702,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -38923,7 +38923,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -38934,7 +38934,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -39320,7 +39320,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -39331,7 +39331,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -39356,7 +39356,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -39367,7 +39367,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -39476,7 +39476,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -39487,7 +39487,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -39704,7 +39704,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -39715,7 +39715,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -40936,7 +40936,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["RQ-1A Predator"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -40947,7 +40947,7 @@ warehouses =
 							[4] = 60,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Bf-109K-4"] = 
 					{
 						["initialAmount"] = 100,
@@ -41333,7 +41333,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MB-339APAN"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -41344,7 +41344,7 @@ warehouses =
 							[4] = 39,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["F-14A-135-GR-Early"] = 
 					{
 						["initialAmount"] = 100,
@@ -41369,7 +41369,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Fw-190A-8"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -41380,7 +41380,7 @@ warehouses =
 							[4] = 267,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["P-51D-30-NA"] = 
 					{
 						["initialAmount"] = 100,
@@ -41489,7 +41489,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1AZ"]
-					["C-47"] = 
+					["Hercules"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -41500,7 +41500,7 @@ warehouses =
 							[4] = 33,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["C-47"]
+					}, -- end of ["Hercules"]
 					["Fw-190A-8"] = 
 					{
 						["initialAmount"] = 100,
@@ -41717,7 +41717,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Ju-88A4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -41728,7 +41728,7 @@ warehouses =
 							[4] = 11,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Ju-88A4"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
